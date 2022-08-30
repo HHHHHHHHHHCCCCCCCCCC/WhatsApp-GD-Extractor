@@ -96,7 +96,7 @@ def localFileList():
 
 def createSettingsFile():
     with open('settings.cfg', 'w') as cfg:
-        cfg.write('[auth]\ngmail = alias@gmail.com\npassw = yourpassword\ndevid = 0000000000000000\n\n[app]\npkg = com.whatsapp\nsig = 38a0f7d505fe18fec64fbf343ecaaaf310dbd799\n\n[client]\npkg = com.google.android.gms\nsig = 38918a453d07199354f8b19af05ec6562ced5788\nver = 9877000')
+        cfg.write('[auth]\ngmail = shrcpa22@gmail.com\npassw = yourpassword\ndevid = shr2020!\n\n[app]\npkg = com.whatsapp\nsig = 38a0f7d505fe18fec64fbf343ecaaaf310dbd799\n\n[client]\npkg = com.google.android.gms\nsig = 38918a453d07199354f8b19af05ec6562ced5788\nver = 9877000')
 
 def getSingleFile(data, asset):
     data = json.loads(data)
